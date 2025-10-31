@@ -24,7 +24,7 @@ const Map = ({ data }: Props) => {
         md:text-[40px] text-[30px] font-bold text-center bg-primary md:w-[80%] mx-auto md:rounded-t-full text-white md:py-0 py-4
         "
       >
-        We Cover {data?.milesCover} Miles Around{" "}
+        We Cover The Entire State Of
         {data.dataGeneral.location[0].city}
       </h2>
       <div className="md:w-[80%] mx-auto w-[95%] flex flex-wrap justify-center py-4 gap-4">
